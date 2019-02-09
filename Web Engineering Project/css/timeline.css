@@ -1,0 +1,175 @@
+body {
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.transparenttextures.com%2Fpatterns%2Fpaper-fibers.png&f=1);
+}
+
+.header-full {
+    z-index: 1;
+    background-color: lightgray;
+    width: 100%;
+    padding: 0.5%;
+    position: absolute;
+    top: 0px;
+    border: none;
+    border-bottom: 0.1px transparent gray;
+    box-shadow: 0px 2px 10px rgb(219, 219, 219);
+    float: left;
+}
+
+.logo-img {
+    margin-top: 1%;
+    margin-left: 6%;
+    float: left;
+}
+
+.nav-bar-list-head {
+    list-style-type: none;
+    margin-left: 4%;
+    float: left;
+    width: 45%;
+}
+
+ul.nav-bar-list-head li {
+    display: inline;
+    margin: 1%;
+    margin-top: 3%;
+    margin-right: 3%;
+    float: left;
+}
+
+ul.header-icons {
+    width: 20%;
+    float: right;
+}
+
+ul.header-icons li {
+    display: inline;
+    margin: 1%;
+    margin-top: 8%;
+    margin-left: 10%;
+    float: left;
+}
+
+#cover {
+    width: 100%;
+    height: 20%;
+    position: relative;
+}
+
+#top-section {
+    position: relative;
+    top: 10%;
+}
+
+#profile {
+    z-index: 1;
+    position: absolute;
+    left: 10%;
+    bottom: -7%;
+    border: 9px solid rgba(255, 255, 255, 0.7);
+    border-radius: 0px 40px;
+    width: 200px;
+    height: 200px;
+}
+
+#timeline-menu {
+    width: 100%;
+    height: 10%;
+    background-color: black;
+}
+
+#follow {
+    position: absolute;
+    background-color: #00BFFF;
+    border: 0px solid;
+    width: 10%;
+    height: 10%;
+    bottom: 10%;
+    left: 85%;
+    box-shadow: 2px 2px 2px black;
+    transition: 0.3s
+}
+
+#follow:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: #00BFFF;
+    border: 1px solid #00BFFF
+}
+
+#pic {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgba(200, 200, 200, 1.0);
+    border: 0px solid;
+    width: 20%;
+    height: 10%;
+    bottom: 10%;
+    left: 30%;
+    box-shadow: 2px 2px 2px black;
+    transition: 0.3s
+}
+
+#pic:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: #00BFFF;
+    border: 1px solid #00BFFF
+}
+
+#timeline-menu {
+    background-color: white;
+    height: 3em;
+    width: 100%;
+    padding: 0.5%;
+    position: absolute;
+    border: none;
+    border-bottom: 0.1px transparent gray;
+    box-shadow: 0px 2px 10px rgb(219, 219, 219);
+}
+
+#name {
+    color: #00BFFF;
+    margin-top: 0%;
+    padding: 0%;
+}
+
+.logo-img-second {
+    margin-left: 28%;
+    float: left;
+    margin-top: 0%;
+    padding: 0%;
+}
+
+.nav-bar-list {
+    list-style-type: none;
+    margin-left: 4%;
+    float: left;
+    width: 45%;
+    margin-top: 1%;
+}
+
+ul.nav-bar-list li {
+    display: inline;
+    margin: 1%;
+    margin-right: 3%;
+    float: left;
+}
+
+li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+#right-section .circular-image-small {
+    width: 40px;
+    height: 40px;
+}
+
+#timeline-menu .nav-bar-list {
+    margin-top: 0px;
+}

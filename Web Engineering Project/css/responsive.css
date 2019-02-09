@@ -1,0 +1,88 @@
+@media only screen and (max-width:1024px) {
+    .content {
+        width: 90%;
+    }
+    #left-section {
+        width: 90%;
+    }
+    .header-full {
+        margin-bottom: 10%;
+    }
+    #socials {
+        display: none;
+    }
+    #right-section {
+        width: 90%;
+        margin-left: 3%;
+        margin-top: 0%;
+    }
+    .footer div {
+        clear: left;
+        width: 90%;
+        margin-left: 10%;
+    }
+    .nav-bar-list {
+        width: 70%;
+    }
+    .header-icons {
+        display: none;
+    }
+    #top-section {
+        height: 80%;
+    }
+    #cover {
+        height: 80%;
+    }
+    #profile {
+        margin: auto;
+        left: 35%;
+        width: 30%;
+        height: 70%;
+        top: 20%;
+    }
+    #pic {
+        display: none;
+    }
+    .logo-img-second {
+        margin-left: 40%;
+    }
+    #timeline-menu .nav-bar-list {
+        width: 100%;
+        margin-left: 25%;
+    }
+    #follow {
+        width: 15%;
+        height: 15%;
+        left: 84%;
+    }
+    .status-write {
+        width: 80%;
+    }
+    #container {
+        width: 90%;
+        margin: auto;
+        margin-top: 20%;
+    }
+    .map {
+        width: 90%;
+        margin-bottom: 0%;
+    }
+    section #container {
+        margin-top: 2%;
+    }
+}
+
+@media only screen and (max-width:680px) {
+    .nav-bar-list {
+        display: none;
+    }
+    .status-write {
+        width: 75%;
+    }
+    #left {
+        width: 100%;
+    }
+    #right {
+        width: 100%;
+    }
+}

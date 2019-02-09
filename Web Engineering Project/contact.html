@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINIUNI Social Network</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet_miniuni_contact.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" type="text/css" href="css/footer.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .body {
+            background-color: #ffe6e6;
+        }
+        
+        .googlemap {
+            position: absolute;
+            top: 45%;
+            left: 15%;
+            width: 400px;
+            heigth: 180px;
+            background-color: #ff8080;
+            border-radius: 5px;
+            color: white;
+            padding: 5px 20px;
+        }
+        
+        #container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 0px;
+            overflow: hidden;
+            background: white;
+            position: center;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border: 1px;
+            border-radius: 2px;
+        }
+        
+        #left {
+            width: 60%;
+            height: 70%;
+            float: left;
+            background: white;
+            padding: 40px 20px;
+        }
+        
+        #right {
+            width: 40%;
+            height: 70%;
+            float: right;
+            background: #ff4d4d;
+            padding: 40px 20px;
+        }
+        
+        ul {
+            list-style-type: none;
+        }
+        
+        .map {
+            margin: auto;
+            width: 80%;
+            height: 350px;
+            position: relative;
+            background-color: rgb(229, 227, 223);
+            margin-top: 9%;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+</head>
+
+<body>
+    <!--header-->
+    <section>
+        <div class="header-full">
+            <div class="logo-img">
+                <img src="images/logo.png" />
+            </div>
+            <ul class="nav-bar-list">
+                <li><a href="newsfeed.html">Home &nbsp;<span class="glyphicon glyphicon-chevron-down"></span></a></li>
+                <li><a href="timeline.html">Timeline&nbsp;<span class="glyphicon glyphicon-chevron-down"></span></a></li>
+                <li><a href="about.html">Account Settings&nbsp;<span class="glyphicon glyphicon-chevron-down"></a></span>
+                </li>
+                <li><a href="error.html">More Pages&nbsp;<span class="glyphicon glyphicon-chevron-down"></span></a></li>
+            </ul>
+            <ul class="header-icons">
+                <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-home"></span></li></a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-bell"></span></li></a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-envelope"></span></li></a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-cog"></span></li></a></li>
+            </ul>
+        </div>
+    </section>
+    <!-- google map -->
+    <section>
+        <div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/d/embed?mid=188OrSQDEmHNzErNfu4hsZuVCmQg" width="100%" height="350px"></iframe>
+                <div class="googlemap">
+                    <h1 style="font-size:50px;">Get in touch</h1>
+                    <p style="color:white;">This is a google map. You may see our location.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--message -->
+    <section>
+        <div id="container">
+            <div id="left">
+                <div class="contact-form">
+                    <div class="cnt-title">
+                        <h3>Send Us A Message</h3>
+                        <form method="post">
+                            <div class="form-group">
+                                <input type="text" id="input" required="required" />
+                                <label class="control-label" for="input">First & Last Name</label><i class="mtrl-select"></i>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" required="required" />
+                                <label class="control-label" for="input">Email@</label><i class="mtrl-select"></i>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" required="required" />
+                                <label class="control-label" for="input">Phone No.</label><i class="mtrl-select"></i>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" required="required" />
+                                <label class="control-label" for="input">Company</label><i class="mtrl-select"></i>
+                            </div>
+                            <div class="form-group">
+                                <textarea rows="4" id="textarea" required="required"></textarea>
+                                <label class="control-label" for="textarea">Message</label><i class="mtrl-select"></i>
+                            </div>
+                            <div class="submit-btns">
+                                <button class="mtr-btn signup" type="button" style="background-color:#ff8080; border:#ff8080;"><i class="glyphicon glyphicon-send" style="font-size:20px;color:white;"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="right">
+                <div class="cntct-adres">
+                    <h3 style="color:white;">Contact Info:</h3>
+                    <ul>
+                        <li>
+                            <i class="glyphicon glyphicon-map-marker" style="font-size:20px;color:white;"></i>
+                            <p style="color:white;">NUST, H-12 CAMPUS, ISLAMABAD</p>
+                        </li>
+                        <li>
+                            <i class="glyphicon glyphicon-phone" style="font-size:20px;color:white;"></i>
+                            <p style="color:white;">0336-4439991</span>
+                        </li>
+                        <li>
+                            <i class="glyphicon glyphicon-envelope" style="font-size:20px;color:white;"></i>
+                            <p style="color:white;">info@yourmail.com</p>
+                        </li>
+                    </ul>
+                    <ul class="social-media">
+                        <li>
+                            <a href="#" title=""><i class="glyphicon glyphicon-facebook-square" style="font-size:20px;color:white;"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" title=""><i class="glyphicon glyphicon-google-plus-square" style="font-size:20px;color:white;"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" title=""><i class="glyphicon glyphicon-pinterest-square" style="font-size:20px;color:white;"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" title=""><i class="glyphicon glyphicon-twitter-square" style="font-size:20px;color:white;"></i></a>
+                        </li>
+                    </ul>
+                    <h1 class="bg-cntct" style="color:white;">MINIUNI</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="identity-footer">
+            <img class="logo-footer" src="images/logo.png" />
+            <br />
+            <p>The trio took this simple idea and built it into the world’s leading carpooling platform.</p>
+            <br/>
+            <i><span class="glyphicon glyphicon-map-marker"></span> 33 new montgomery st.750 san francisco, CA USA 94105.</i>
+            <br/>
+            <br/>
+            <i><span class="glyphicon glyphicon-phone"></span> +92-3364439991</i>
+
+        </div>
+
+        <div class="social-links-footer">
+            <h4>Social</h4>
+            <ul class="social-list">
+                <li><a class="time-links-footer link-fb" href="#"><i class="fa fa-facebook"></i> &nbsp&nbspFacebook</a></li>
+                <li><a class="time-links-footer link-twitter" href="#"><i class="fa fa-twitter"></i> &nbspTwitter</a></li>
+                <li><a class="time-links-footer link-instagram" href="#"><i class="fa fa-instagram"></i> &nbspInstagram</a></li>
+                <li><a class="time-links-footer link-gplus" href="#"><i class="fa fa-google-plus"></i> Google+</a></li>
+                <li><a class="time-links-footer link-pintrest" href="#"><i class="fa fa-pinterest"></i> &nbsp&nbspPintrest</a></li>
+            </ul>
+
+        </div>
+
+        <div class="nav-links-footer">
+            <h4>Navigate</h4>
+            <ul class="nav-list">
+                <li><a class="time-links" href="about.html">About Us</a></li>
+                <li><a class="time-links" href="contact.html">Contact Us</a></li>
+                <li><a class="time-links" href="error.html">Terms and Conditions</a></li>
+                <li><a class="time-links" href="error.html">Sitemap</a></li>
+            </ul>
+
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+</body>
+
+</html>

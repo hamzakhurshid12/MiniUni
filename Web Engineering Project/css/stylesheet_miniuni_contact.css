@@ -1,0 +1,239 @@
+/* Style Sheet
+Project title: MiniUni
+*/
+
+/*=============== Fonts source Muli, Hobostd ===================*/
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,400i,500,700,800');
+
+@font-face {
+   font-family: HoboStd;
+   src:url('../fonts/HoboStd.ttf'), url('../fonts/HoboStd.eot');
+}
+
+/*===============
+***General Styling 
+===============*/
+
+body {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color: #545454;
+  font-family: "Muli";
+}
+
+p {
+  font-size: 14px;
+  line-height: 26px;
+  color: #8c8b8b;
+}
+
+a,a:hover,a:focus,a:active {
+  color: inherit;
+  outline: none;
+  -webkit-text-decoration: none;
+  -moz-text-decoration: none;
+  -ms-text-decoration: none;
+  -o-text-decoration: none;
+  text-decoration: none;
+}
+
+input:focus,textarea:focus,select:focus,button:focus {
+  outline: none;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.theme-layout {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+.theme-layout.boxed {
+  background: none repeat scroll 0 0 #FFFFFF;
+  float: none;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  width: 1230px;
+  -webkit-box-shadow: 0 0 6px #747474;
+  -moz-box-shadow: 0 0 6px #747474;
+  -ms-box-shadow: 0 0 6px #747474;
+  -o-box-shadow: 0 0 6px #747474;
+  box-shadow: 0 0 6px #747474;
+}
+
+section {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+.gap {
+  float: left;
+  padding: 60px 0;
+  position: relative;
+  width: 100%;
+}
+.gap.no-gap{
+  padding: 0;
+}
+
+.gap.no-top {
+  padding-top: 0px;
+}
+
+.gap.no-bottom{
+  padding-bottom: 0px;
+}
+.gap2 {
+    padding: 30px 0;
+}
+.remove-ext-{
+  float: left;
+  width: 100%;
+  margin-bottom: -30px;
+}
+
+.merged {
+  margin: 0px;
+  padding: 0;
+}
+
+.merged > div {
+  padding: 0;
+}
+
+.row.merged > div {
+  padding: 0;
+}
+
+.merged.row {
+  margin: 0;
+}
+
+.merged.row > div {
+  padding: 0;
+}
+
+.parallax-fixed {
+  height: 100%;
+  left: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+
+.parallax {
+  height: 100%;
+  left: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.blackish:before,.whitish:before,.bluesh:before {
+  background: #000000 none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.whitish:before {
+  background: rgba(255,255,255,.9);
+}
+.bluesh:before{
+	background: rgba(72, 159, 226, 0.9);	
+}
+.high-opacity:before {
+  -webkit-opacity: .95;
+  -moz-opacity: .95;
+  -ms-opacity: .95;
+  -o-opacity: .95;
+  opacity: .95;
+}
+
+.medium-opacity:before {
+  -webkit-opacity: .85;
+  -moz-opacity: .85;
+  -ms-opacity: .85;
+  -o-opacity: .85;
+  opacity: .85;
+}
+
+.low-opacity:before {
+  -webkit-opacity: .75;
+  -moz-opacity: .75;
+  -ms-opacity: .75;
+  -o-opacity: .75;
+  opacity: .75;
+}
+
+.gray-bg {
+  float: left;
+  width: 100%;
+  background: #f4f2f2;
+}
+
+[type="submit"], button, html [type="button"]{
+	cursor: pointer;
+}
+textarea {
+  resize: none;
+}
+a:hover.facebook {
+  background: #516eab;
+}
+
+a:hover.twitter {
+  background: #55acee;
+}
+
+a:hover.google {
+  background: #dd4b39;
+}
+
+a:hover.pinterest {
+  background: #ca212a;
+}
+a:hover.youtube {
+  background: #e62117;
+}
+
+a:hover.dribble {
+  background: #1572b8;
+}
+
+a:hover.linkedin {
+  background: #0077b5;
+}
+
+a:hover.tumblr {
+  background: #36465d;
+}
+
+a:hover.rss {
+  background: #e3a103;
+}
+
+a:hover.vk {
+  background: #466991;
+}
+.checked {
+    color: orange;
+}

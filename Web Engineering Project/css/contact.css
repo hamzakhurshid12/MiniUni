@@ -1,0 +1,55 @@
+.body {
+    background-color: #ffe6e6;
+}
+
+.googlemap {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    width: 400px;
+    background-color: #00BFFF;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 20px;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0px;
+    overflow: hidden;
+    background: white;
+    position: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px;
+    border-radius: 2px;
+}
+
+#left {
+    width: 60%;
+    height: 70%;
+    float: left;
+    background: white;
+    padding: 40px 20px;
+}
+
+#right {
+    width: 40%;
+    height: 70%;
+    float: right;
+    background: #035976;
+    padding: 40px 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.map {
+    margin: auto;
+    width: 80%;
+    height: 350px;
+    position: relative;
+    background-color: rgb(229, 227, 223);
+    margin-top: 9%;
+}

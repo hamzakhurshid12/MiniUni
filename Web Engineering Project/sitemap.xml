@@ -1,0 +1,35 @@
+<MiniUni>
+    <SignIn>
+    <a href="signin.php">SignIn</a>
+        <Newsfeed>  
+            <a href="newsfeed.php">Newsfeed</a>
+                <Timeline>
+                <a href="timeline.php">Timeline</a>
+					<Picture>
+					<a href="photo.php">Picture</a>
+					</Picture>
+					<Video>
+					<a href="video.php">Video</a>
+					</Video>
+                </Timeline>
+                <AccountSetting>
+                <a href="about.php">About</a>
+                </AccountSetting>
+                <Contact>
+                <a href="contact.php">Contact</a>
+                </Contact>
+                <LogOut>
+                <a href="logout.php">LogOut</a>
+                </LogOut>
+        </Newsfeed>
+    </SignIn>
+    <SignUp>
+    <a href="signup.php">SignUp</a>
+        <RegistrationSuccessful>
+        <a href="register-success.html">Register Succesfully</a>
+			<SignIn>
+			<a href="signin.php">SignIn</a>
+			</SignIn>
+        </RegistrationSuccessful>
+    </SignUp>
+</MiniUni>
